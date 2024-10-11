@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const {
     SessionModel
-} = require('../models/game.model');
+} = require('../models/gsme.model');
 
 
 async function jugar(req, res){
