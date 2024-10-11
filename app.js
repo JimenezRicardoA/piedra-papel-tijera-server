@@ -9,6 +9,7 @@ const {
 } = require('./config').variablesdeconfiguracion;
 
 const databaseUrl = mongoURL;
+//const databaseUrl = "mongodb+srv://ElmeroBueno:MN12Lk45@jimenezriardo.0ntna.mongodb.net/pipati";
 
 mongoose.connect(databaseUrl, { 
   useNewUrlParser: true,
